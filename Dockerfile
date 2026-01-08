@@ -1,4 +1,5 @@
 FROM debian:stable-slim
 
 # COPY source destination
-COPY goserver /bin/goserver
+COPY docker-tut /bin/docker-tut
+CMD ["/bin/docker-tut"]
